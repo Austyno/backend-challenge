@@ -54,6 +54,8 @@ app.use(
     },
   })
 )
+//=== mount route files ===//
+app.use('/api', routes);
 
 const PORT = process.env.PORT || 8000
 app.listen(
